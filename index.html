@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Aura | Arquitetura e Interiores</title>
+  <meta
+    name="description"
+    content="Studio Aura: arquitetura e interiores de alto padrão com assinatura autoral, precisão técnica e luxo discreto."
+  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500&family=Hanken+Grotesk:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <header class="site-header" id="topo">
+    <div class="container nav-wrap">
+      <a class="brand" href="#topo">Studio Aura</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+        <a href="#processo">Nosso Processo</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#essencia">A Essência</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-outline btn-header" href="#contato">Consulta Privada</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <video
+        class="hero-video"
+        autoplay
+        muted
+        loop
+        playsinline
+        poster="src/assets/projeto-banheiro.png"
+      >
+        <source src="src/assets/interior-dark-video.mp4" type="video/mp4">
+      </video>
+      <div class="hero-vignette"></div>
+      <div class="container hero-content">
+        <p class="label">Arquitetura de Alto Padrão em São Paulo</p>
+        <h1>Aura: A arte do luxo discreto</h1>
+        <p>
+          Design de interiores e arquitetura de alto padrão para residências e ambientes corporativos.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-gold" href="#contato">Agendar Consulta</a>
+          <a class="btn btn-outline" href="#projetos">Explorar Projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="processo" class="build-sequence-section">
+      <div class="build-sequence-pin" id="build-sequence-pin">
+        <video
+          id="build-sequence-video"
+          class="build-sequence-video"
+          muted
+          playsinline
+          preload="auto"
+          poster="src/assets/projeto-banheiro.png"
+        >
+          <source src="src/assets/video-camadas.mp4" type="video/mp4">
+        </video>
+        <div class="build-sequence-overlay" aria-hidden="true">
+          <article class="build-step step-left" data-build-step="start">
+            <p class="label">01 / Conceito</p>
+            <h3>Leitura arquitetônica e direção de atmosfera.</h3>
+          </article>
+          <article class="build-step step-right" data-build-step="middle">
+            <p class="label">02 / Desenvolvimento</p>
+            <h3>Materiais, volumetria e precisão técnica em camadas.</h3>
+          </article>
+          <article class="build-step step-left" data-build-step="end">
+            <p class="label">03 / Entrega</p>
+            <h3>Acabamento refinado e experiência final do espaço.</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section portfolio">
+      <div class="container">
+        <div class="section-head center">
+          <p class="label">Projetos Selecionados</p>
+          <h2>Galeria curada de interiores.</h2>
+        </div>
+        <div class="portfolio-grid" id="portfolio-grid"></div>
+      </div>
+    </section>
+
+    <section id="essencia" class="section essence">
+      <div class="container essence-grid">
+        <div class="essence-media reveal">
+          <img src="src/assets/projeto-banheiro.png" alt="Retrato editorial em ambiente escuro">
+        </div>
+        <div class="essence-content">
+          <p class="label">A Essência do Studio Aura</p>
+          <h2>Design guiado por silêncio visual, escala e precisão.</h2>
+          <p>
+            Marina Vasconcelos lidera o Studio Aura com uma filosofia focada
+            em rigor técnico e atmosfera. Os projetos valorizam materiais nobres,
+            proporção arquitetônica e uma estética atemporal.
+          </p>
+          <ul>
+            <li>15 anos de atuação em interiores premium</li>
+            <li>Projetos residenciais e corporativos em São Paulo</li>
+            <li>Direção criativa com acompanhamento integral</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section-head center">
+          <p class="label">Depoimentos</p>
+          <h2>Confiança construída em cada entrega.</h2>
+        </div>
+        <div class="testimonial-slider" id="testimonial-slider">
+          <blockquote class="testimonial active">
+            "A equipe entregou um apartamento sofisticado e funcional, com execução impecável."
+            <cite>— Helena Diniz, Jardins</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            "O Studio Aura traduziu exatamente o que queríamos: elegância sem excessos."
+            <cite>— Rafael Teixeira, Vila Nova Conceição</cite>
+          </blockquote>
+          <blockquote class="testimonial">
+            "Do conceito à finalização, o processo foi técnico, claro e extremamente refinado."
+            <cite>— Isabel Marcondes, Itaim Bibi</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section contact">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <p class="label">Entre em Contato</p>
+          <h2>Vamos projetar o seu próximo espaço.</h2>
+          <p>Atendimentos sob agendamento em São Paulo.</p>
+          <a class="btn btn-outline" href="https://wa.me/5511999999999" target="_blank" rel="noreferrer">
+            Iniciar conversa no WhatsApp
+          </a>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <label>
+            Nome
+            <input type="text" name="name" required>
+            <small class="error-message"></small>
+          </label>
+          <label>
+            E-mail
+            <input type="email" name="email" required>
+            <small class="error-message"></small>
+          </label>
+          <label>
+            Mensagem
+            <textarea name="message" rows="4" required></textarea>
+            <small class="error-message"></small>
+          </label>
+          <button class="btn btn-gold" type="submit">Enviar Mensagem</button>
+          <p class="form-feedback" id="form-feedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>Studio Aura</p>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">LinkedIn</a>
+      </div>
+      <p>© 2026 Studio Aura. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
